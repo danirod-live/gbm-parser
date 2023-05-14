@@ -105,9 +105,9 @@ void DisposeBuffer(buffer_t *buffer)
 }
 
 int main() {
-    buffer_t file;
-    OpenFile("data.gbm", &file);
-    DumpData(&file);
-    DisposeBuffer(&file);
+    buffer_t QueBonitoElHamsterDeAfor;
+    OpenFile("data.gbm", &QueBonitoElHamsterDeAfor);
+    DumpData(&QueBonitoElHamsterDeAfor);
+    DisposeBuffer(&QueBonitoElHamsterDeAfor);
     return 0;
 }
